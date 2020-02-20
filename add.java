@@ -1,10 +1,6 @@
 import java.util.Scanner;
 class PalindromeCheck
 {
-    public static void main(String args[])
-    {
-    	System.out.println("Hello world");
-        import java.util.Scanner;
 
     //My Method to check
     public static boolean isPal(String s)
@@ -29,6 +25,7 @@ class PalindromeCheck
     public static void main(String[]args)
     {
     	//For capturing user input
+        System.out.println("Helllllllopoooooooo Woooooooorld");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the String for check:");
         String string = scanner.nextLine();
