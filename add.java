@@ -1,6 +1,8 @@
 import java.util.*;
-
-   public static void main(String[] args) {
+public class AddNumber
+{ 
+   public static void main(String[] args) 
+   {
         
       int num1 = 5, num2 = 15, sum;
       sum = num1 + num2;
@@ -8,3 +10,4 @@ import java.util.*;
       System.out.println("Sum of these numbers: "+sum);
    }
 
+}
