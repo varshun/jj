@@ -1,5 +1,5 @@
 import java.util.*;
-public class AddNumber
+public class add
 { 
    public static void main(String[] args) 
    {
