@@ -1,0 +1,11 @@
+pipeline
+{
+    agent any
+    stages
+    {
+        stage("compile")
+        {
+             bat label: '', script: 'mvn compile'
+        }
+    }
+}
