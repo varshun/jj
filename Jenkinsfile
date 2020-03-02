@@ -6,7 +6,10 @@ pipeline
     {
         stage("compile")
         {
+            steps
+            {
              bat label: '', script: 'mvn compile'
+            }
         }
     }
 }
